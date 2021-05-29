@@ -13,11 +13,10 @@ function handleResponse(response) {
     event.preventDefault();
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_GB/${word}`;
+    //documentation: https://dictionaryapi.dev/
 console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);
 }
-
-//https://api.dictionaryapi.dev/api/v2/entries/en_GB
 
 function handleWordChange(event) {
 setWord(event.target.value);
