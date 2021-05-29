@@ -14,7 +14,7 @@ export default function App() {
       </main>
       <footer className="App-footer">
         <small>
-        Coded by Kirsty Akahoho
+        Coded by Kirsty Akahoho <a href="https://github.com/kirstyaka/dictionary-app" target="_blank">open-sourced on GitHub</a>
         </small>
       </footer>
       </div>
