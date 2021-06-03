@@ -11,8 +11,6 @@ function handleResponse(response) {
     setResults(response.data[0]);
 }
 
-
-
  function Search(event) {
     event.preventDefault();
 
@@ -28,9 +26,12 @@ setWord(event.target.value);
 
     return (
         <div className="Dictionary">
+            <section>
+                <h1> Which word do you want to search for?</h1>
             <form onSubmit={Search}>
-             <input type="search" onChange={handleWordChange} placeholder="Enter your Word" autoFocus={true} />
+             <input type="search" onChange={handleWordChange} placeholder="Enter your word..." autoFocus={true} />
             </form>
+            </section>
             <Results results={results} />
         </div>
     );

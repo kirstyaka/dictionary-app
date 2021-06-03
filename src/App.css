@@ -1,15 +1,36 @@
+body {
+  background-color: #ecf4f4;
+  font-family: "Baloo Tammudu 2";
+}
+
+a {
+  color: #2a6b71;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+a:hover {
+  color: #f07b66;
+}
+
 .App {
-  text-align: center;
 }
 
 .App-header {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
+  max-width: 300px;
+  display: inline;
+}
+
+.App-heading {
+  color: #2a6b71;
+  font-weight: 600;
+  display: inline;
 }
 
 .App-footer {
