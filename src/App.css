@@ -16,6 +16,8 @@ a:hover {
 }
 
 .App {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -25,14 +27,14 @@ a:hover {
 .App-logo {
   max-width: 300px;
   display: inline;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .App-heading {
   color: #2a6b71;
   font-weight: 600;
   display: inline;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .App-footer {
